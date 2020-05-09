@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/mdb.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Markdown</title>
+</head>
+<body class="h-100">
+
+<div class="container-fluid h-100">
+    <div class="row h-100">
+        <div class="col-8 h-100">
+            <div id="stepperWrapper" class="h-100 overflow-auto">
+                <ul id="stepper" class="stepper stepper-vertical"></ul>
+            </div>
+            <button id="prevButton" class="btn btn-primary content-nav content-nav-prev">Previous</button>
+            <button id="nextButton" class="btn btn-primary content-nav content-nav-next">Next</button>
+        </div>
+
+        <div class="col-4">
+            <textarea id="markdownInput" class="w-100 h-100 text-monospace small"></textarea>
+        </div>
+    </div>
+</div>
+
+
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/jquery.scrollTo.js"></script>
+<script src="./js/popper.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/markdown-it.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

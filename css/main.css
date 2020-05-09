@@ -1,0 +1,17 @@
+.content-nav {
+    position: absolute;
+}
+
+.content-nav-prev {
+    bottom: 2em;
+    left: 2em;
+}
+
+.content-nav-next {
+    bottom: 2em;
+    right: 2em;
+}
+
+.stepper h1 {
+    display: none;
+}
